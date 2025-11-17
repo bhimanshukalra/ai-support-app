@@ -1,5 +1,6 @@
 import { add } from "@workspace/math/add";
 import { Button } from "@workspace/ui/components/button";
+import { Input } from "@workspace/ui/components/input";
 
 export default function Page() {
   return (
@@ -8,6 +9,7 @@ export default function Page() {
         <h1 className="text-2xl font-bold">Hello apps/web</h1>
         <Button size="sm">Button</Button>
         <p>{add(2, 5)}</p>
+        <Input />
       </div>
     </div>
   );
