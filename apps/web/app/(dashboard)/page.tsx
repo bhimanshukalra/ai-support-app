@@ -21,9 +21,6 @@ export default function Page() {
       <div className="flex items-center justify-center min-h-svh flex-col">
         <h1 className="text-2xl font-bold">Hello apps/web</h1>
         <Button onClick={() => addUser()}>Add</Button>
-        {users?.map((currentUser) => (
-          <p key={currentUser._id}>{JSON.stringify(currentUser)}</p>
-        ))}
       </div>
     </>
   );
